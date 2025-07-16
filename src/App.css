@@ -1,0 +1,74 @@
+Sure, here is a simple CSS snippet for a counter application. This code prioritizes a modern, minimalist design and includes a responsive layout.
+
+```css
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.counter {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .counter {
+        font-size: 1.5em;
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+```
+
+This CSS provides a mobile-first, responsive design for the counter application. It specifies a minimalist color scheme and uses smooth transitions for button hover effects. The font size of the counter and buttons adjusts depending on the screen resolution to improve accessibility on smaller devices.
